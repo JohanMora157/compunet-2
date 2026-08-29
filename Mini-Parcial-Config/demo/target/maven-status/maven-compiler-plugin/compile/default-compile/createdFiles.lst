@@ -1,0 +1,16 @@
+com\parcial\service\IAuthorService.class
+com\parcial\servlets\HomeServlet.class
+com\parcial\repository\impl\AuthorRepositoryImpl.class
+com\parcial\repository\IAuthorRepository.class
+com\parcial\model\Post.class
+com\parcial\repository\impl\PostRepositoryImpl.class
+com\parcial\servlets\CreatePostServlet.class
+com\parcial\service\IPostService.class
+com\parcial\servlets\AuthorListServlet.class
+com\parcial\servlets\CreateAuthorServlet.class
+com\parcial\repository\IPostRepository.class
+com\parcial\service\impl\PostServiceImpl.class
+com\parcial\service\impl\AuthorServiceImpl.class
+com\parcial\model\Author.class
+com\parcial\servlets\PostListServlet.class
+com\parcial\config\AppConfig.class

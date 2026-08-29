@@ -23,7 +23,7 @@ public class PostRepositoryImpl implements IPostRepository {
     public void init() {
 
         posts.clear();
-        savePost((Post) new Post(0, "Post1", "Imagen").setAuthor(authorRepository.searchAuthor(1)));
+        savePost(new Post(0, "Post1", "Imagen").setAuthor(authorRepository.searchAuthor(1)));
         savePost(new Post(0, "Post2", "Video").setAuthor(authorRepository.searchAuthor(2)));
         savePost(new Post(0, "Post3", "Reel").setAuthor(authorRepository.searchAuthor(3)));
         savePost(new Post(0, "Post4", "TikTok").setAuthor(authorRepository.searchAuthor(4)));
