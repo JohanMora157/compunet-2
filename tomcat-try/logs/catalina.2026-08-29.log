@@ -571,3 +571,169 @@
 29-Aug-2026 17:04:35.516 INFO [Catalina-utility-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
 29-Aug-2026 17:04:36.049 INFO [Catalina-utility-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 532 ms
 29-Aug-2026 17:04:36.053 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ASUS\Desktop\Compunet-2\repo-all\compunet-2\tomcat-try\webapps\demo.war] has finished in [1.859] ms
+29-Aug-2026 18:16:11.982 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/demo]
+29-Aug-2026 18:16:12.037 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks Necesitas agregar "--add-opens=java.base/java.lang=ALL-UNNAMED" a los argumentos JVM en la línea de comandos, para habilitar la detección de fuga de memoria ThreadLocal. Alternativamente, puedes suprimir esta advertencia, deshabilitando la detección de fuga de memoria ThreadLocal.
+29-Aug-2026 18:16:12.038 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets You need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+29-Aug-2026 18:16:12.084 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\ASUS\Desktop\Compunet-2\repo-all\compunet-2\tomcat-try\webapps\demo.war] de la aplicación web
+29-Aug-2026 18:16:13.761 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Aug-2026 18:16:13.790 INFO [Catalina-utility-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+29-Aug-2026 18:16:14.863 INFO [Catalina-utility-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 1073 ms
+29-Aug-2026 18:16:14.870 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ASUS\Desktop\Compunet-2\repo-all\compunet-2\tomcat-try\webapps\demo.war] has finished in [2.785] ms
+29-Aug-2026 18:18:35.020 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/demo]
+29-Aug-2026 18:18:35.031 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks Necesitas agregar "--add-opens=java.base/java.lang=ALL-UNNAMED" a los argumentos JVM en la línea de comandos, para habilitar la detección de fuga de memoria ThreadLocal. Alternativamente, puedes suprimir esta advertencia, deshabilitando la detección de fuga de memoria ThreadLocal.
+29-Aug-2026 18:18:35.031 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets You need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+29-Aug-2026 18:18:35.077 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\ASUS\Desktop\Compunet-2\repo-all\compunet-2\tomcat-try\webapps\demo.war] de la aplicación web
+29-Aug-2026 18:18:36.511 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Aug-2026 18:18:36.563 INFO [Catalina-utility-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+29-Aug-2026 18:18:37.570 INFO [Catalina-utility-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 1006 ms
+29-Aug-2026 18:18:37.574 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ASUS\Desktop\Compunet-2\repo-all\compunet-2\tomcat-try\webapps\demo.war] has finished in [2.497] ms
+29-Aug-2026 18:19:07.606 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/demo]
+29-Aug-2026 18:19:07.621 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks Necesitas agregar "--add-opens=java.base/java.lang=ALL-UNNAMED" a los argumentos JVM en la línea de comandos, para habilitar la detección de fuga de memoria ThreadLocal. Alternativamente, puedes suprimir esta advertencia, deshabilitando la detección de fuga de memoria ThreadLocal.
+29-Aug-2026 18:19:07.621 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets You need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+29-Aug-2026 18:19:07.666 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\ASUS\Desktop\Compunet-2\repo-all\compunet-2\tomcat-try\webapps\demo.war] de la aplicación web
+29-Aug-2026 18:19:08.985 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Aug-2026 18:19:09.006 INFO [Catalina-utility-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+29-Aug-2026 18:19:10.145 INFO [Catalina-utility-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 1139 ms
+29-Aug-2026 18:19:10.150 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ASUS\Desktop\Compunet-2\repo-all\compunet-2\tomcat-try\webapps\demo.war] has finished in [2.484] ms
+29-Aug-2026 18:22:10.369 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/demo]
+29-Aug-2026 18:22:10.381 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks Necesitas agregar "--add-opens=java.base/java.lang=ALL-UNNAMED" a los argumentos JVM en la línea de comandos, para habilitar la detección de fuga de memoria ThreadLocal. Alternativamente, puedes suprimir esta advertencia, deshabilitando la detección de fuga de memoria ThreadLocal.
+29-Aug-2026 18:22:10.381 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets You need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+29-Aug-2026 18:22:10.418 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\ASUS\Desktop\Compunet-2\repo-all\compunet-2\tomcat-try\webapps\demo.war] de la aplicación web
+29-Aug-2026 18:22:11.735 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Aug-2026 18:22:11.759 INFO [Catalina-utility-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+29-Aug-2026 18:22:12.713 INFO [Catalina-utility-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 952 ms
+29-Aug-2026 18:22:12.718 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ASUS\Desktop\Compunet-2\repo-all\compunet-2\tomcat-try\webapps\demo.war] has finished in [2.299] ms
+29-Aug-2026 18:26:02.992 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/demo]
+29-Aug-2026 18:26:03.003 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks Necesitas agregar "--add-opens=java.base/java.lang=ALL-UNNAMED" a los argumentos JVM en la línea de comandos, para habilitar la detección de fuga de memoria ThreadLocal. Alternativamente, puedes suprimir esta advertencia, deshabilitando la detección de fuga de memoria ThreadLocal.
+29-Aug-2026 18:26:03.003 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets You need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+29-Aug-2026 18:26:03.044 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\ASUS\Desktop\Compunet-2\repo-all\compunet-2\tomcat-try\webapps\demo.war] de la aplicación web
+29-Aug-2026 18:26:04.303 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Aug-2026 18:26:04.323 INFO [Catalina-utility-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+29-Aug-2026 18:26:05.207 INFO [Catalina-utility-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 883 ms
+29-Aug-2026 18:26:05.211 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ASUS\Desktop\Compunet-2\repo-all\compunet-2\tomcat-try\webapps\demo.war] has finished in [2.167] ms
+29-Aug-2026 18:26:35.246 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/demo]
+29-Aug-2026 18:26:35.263 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks Necesitas agregar "--add-opens=java.base/java.lang=ALL-UNNAMED" a los argumentos JVM en la línea de comandos, para habilitar la detección de fuga de memoria ThreadLocal. Alternativamente, puedes suprimir esta advertencia, deshabilitando la detección de fuga de memoria ThreadLocal.
+29-Aug-2026 18:26:35.263 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets You need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+29-Aug-2026 18:26:35.316 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\ASUS\Desktop\Compunet-2\repo-all\compunet-2\tomcat-try\webapps\demo.war] de la aplicación web
+29-Aug-2026 18:26:36.749 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Aug-2026 18:26:36.780 INFO [Catalina-utility-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+29-Aug-2026 18:26:37.108 SEVERE [Catalina-utility-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Context initialization failed
+	org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/com.parcial.config.AppConfig]
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:342)
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:184)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:220)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:191)
+		at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+		at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+		at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+		at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:696)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:578)
+		at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:394)
+		at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:274)
+		at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:102)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4160)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4583)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:583)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:677)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:924)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1872)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:755)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:410)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1655)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:284)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:115)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:956)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1179)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1183)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1156)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+		at java.base/java.lang.Thread.run(Thread.java:842)
+	Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/com.parcial.config.AppConfig]
+		at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:165)
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333)
+		... 39 more
+29-Aug-2026 18:26:37.109 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+29-Aug-2026 18:26:37.110 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal Falló en arranque del Contexto [/demo] debido a errores previos
+29-Aug-2026 18:26:37.124 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks Necesitas agregar "--add-opens=java.base/java.lang=ALL-UNNAMED" a los argumentos JVM en la línea de comandos, para habilitar la detección de fuga de memoria ThreadLocal. Alternativamente, puedes suprimir esta advertencia, deshabilitando la detección de fuga de memoria ThreadLocal.
+29-Aug-2026 18:26:37.126 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets You need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+29-Aug-2026 18:26:37.129 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ASUS\Desktop\Compunet-2\repo-all\compunet-2\tomcat-try\webapps\demo.war] has finished in [1.813] ms
+29-Aug-2026 18:28:57.281 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/demo]
+29-Aug-2026 18:28:57.318 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\ASUS\Desktop\Compunet-2\repo-all\compunet-2\tomcat-try\webapps\demo.war] de la aplicación web
+29-Aug-2026 18:28:58.552 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Aug-2026 18:28:58.572 INFO [Catalina-utility-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+29-Aug-2026 18:28:58.912 SEVERE [Catalina-utility-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Context initialization failed
+	org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/com.parcial.config.AppConfig]
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:342)
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:184)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:220)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:191)
+		at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+		at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+		at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+		at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:696)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:578)
+		at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:394)
+		at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:274)
+		at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:102)
+		at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4160)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4583)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:170)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:583)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:677)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:924)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1872)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:92)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:755)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:410)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1655)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:284)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:115)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:956)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1179)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1183)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1156)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74)
+		at java.base/java.lang.Thread.run(Thread.java:842)
+	Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/com.parcial.config.AppConfig]
+		at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:165)
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333)
+		... 39 more
+29-Aug-2026 18:28:58.916 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+29-Aug-2026 18:28:58.916 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal Falló en arranque del Contexto [/demo] debido a errores previos
+29-Aug-2026 18:28:58.921 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks Necesitas agregar "--add-opens=java.base/java.lang=ALL-UNNAMED" a los argumentos JVM en la línea de comandos, para habilitar la detección de fuga de memoria ThreadLocal. Alternativamente, puedes suprimir esta advertencia, deshabilitando la detección de fuga de memoria ThreadLocal.
+29-Aug-2026 18:28:58.921 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets You need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+29-Aug-2026 18:28:58.931 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ASUS\Desktop\Compunet-2\repo-all\compunet-2\tomcat-try\webapps\demo.war] has finished in [1.613] ms
+29-Aug-2026 18:31:19.107 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/demo]
+29-Aug-2026 18:31:19.140 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\ASUS\Desktop\Compunet-2\repo-all\compunet-2\tomcat-try\webapps\demo.war] de la aplicación web
+29-Aug-2026 18:31:20.390 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Aug-2026 18:31:20.407 INFO [Catalina-utility-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+29-Aug-2026 18:31:21.335 INFO [Catalina-utility-2] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 927 ms
+29-Aug-2026 18:31:21.339 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ASUS\Desktop\Compunet-2\repo-all\compunet-2\tomcat-try\webapps\demo.war] has finished in [2.199] ms
+29-Aug-2026 18:37:41.866 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/demo]
+29-Aug-2026 18:37:41.878 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalsForLeaks Necesitas agregar "--add-opens=java.base/java.lang=ALL-UNNAMED" a los argumentos JVM en la línea de comandos, para habilitar la detección de fuga de memoria ThreadLocal. Alternativamente, puedes suprimir esta advertencia, deshabilitando la detección de fuga de memoria ThreadLocal.
+29-Aug-2026 18:37:41.878 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets You need to add "--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED" to the JVM command line arguments to enable RMI Target memory leak detection. Alternatively, you can suppress this warning by disabling RMI Target memory leak detection.
+29-Aug-2026 18:37:41.915 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Despliegue del archivo [C:\Users\ASUS\Desktop\Compunet-2\repo-all\compunet-2\tomcat-try\webapps\demo.war] de la aplicación web
+29-Aug-2026 18:37:43.637 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+29-Aug-2026 18:37:43.658 INFO [Catalina-utility-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+29-Aug-2026 18:37:44.569 INFO [Catalina-utility-1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 911 ms
+29-Aug-2026 18:37:44.575 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\ASUS\Desktop\Compunet-2\repo-all\compunet-2\tomcat-try\webapps\demo.war] has finished in [2.659] ms

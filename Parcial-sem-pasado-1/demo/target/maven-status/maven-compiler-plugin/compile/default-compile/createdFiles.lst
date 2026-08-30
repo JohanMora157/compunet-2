@@ -1,0 +1,14 @@
+com\parcial\repository\IMeasurementRepository.class
+com\parcial\model\Device.class
+com\parcial\servlets\HomeServlet.class
+com\parcial\repository\impl\DeviceRepositoryImpl.class
+com\parcial\service\impl\DeviceServiceImpl.class
+com\parcial\model\Measurement.class
+com\parcial\repository\impl\MeasurementRepositoryImpl.class
+com\parcial\config\AppConfig.class
+com\parcial\servlets\ListMeasurementsServlet.class
+com\parcial\servlets\CreateMeasurementServlet.class
+com\parcial\service\IMeasurementService.class
+com\parcial\repository\IDeviceRepository.class
+com\parcial\service\IDeviceService.class
+com\parcial\service\impl\MeasurementServiceImpl.class
