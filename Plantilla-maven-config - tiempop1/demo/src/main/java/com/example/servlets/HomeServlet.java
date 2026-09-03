@@ -26,8 +26,8 @@ public class HomeServlet extends HttpServlet {
 
         out.println("<li>List Starships <a href='http://localhost:8080/demo/starships'><button type='button'>Ir</button></a></li> ");
         out.println("<li>List MissionLogs <a href='http://localhost:8080/demo/missionlogs'><button type='button'>Ir</button></a></li>");
-                out.println("<li>Create Starships <a href='http://localhost:8080/demo/missionlogs/create'><button type='button'>Ir</button></a></li>");
-        out.println("<li>Create MissionLogs <a href='http://localhost:8080/demo/starships/create'><button type='button'>Ir</button></a></li>");
+                out.println("<li>Create MissionLogs <a href='http://localhost:8080/demo/missionlogs/create'><button type='button'>Ir</button></a></li>");
+        out.println("<li>Create Starships  <a href='http://localhost:8080/demo/starships/create'><button type='button'>Ir</button></a></li>");
 
         out.println("</ul>");
 

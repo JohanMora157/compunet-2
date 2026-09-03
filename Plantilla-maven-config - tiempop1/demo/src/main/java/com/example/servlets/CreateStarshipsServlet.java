@@ -68,19 +68,37 @@ public class CreateStarshipsServlet extends HttpServlet {
     String ClassType = req.getParameter("ClassType");
     String CommissionDate = req.getParameter("CommissionDate");
     String RegistryCode = req.getParameter("RegistryCode");
-    String Status = req.getParameter("St    atus");
+    String Status = req.getParameter("Status");
     String name = req.getParameter("name");
 
 
     //String Captain, String ClassType, String CommissionDate, String RegistryCode, String Status, int id, String name
 
-    Starship starship = new Starship(Captain,ClassType,CommissionDate,RegistryCode,Status,0,name);
+    Starship starship = new Starship(Captain,ClassType,CommissionDate,RegistryCode,Status,0,name);    
+
+        try {
 
     starshipService.save(starship);
 
+        resp.sendRedirect(
+            req.getContextPath() + "/starships/create"
+        );
 
-        resp.sendRedirect(req.getContextPath()+"/starships/create");
+    } catch (IllegalArgumentException e) {
+
+         resp.setContentType("text/html;charset=UTF-8");
+
+    resp.getWriter().println(
+        "<script>" +
+        "alert('" + e.getMessage() + "');" +
+        "window.location.href='" +
+        req.getContextPath() +
+        "/starships/create';" +
+        "</script>"
+    );
     }
+
+}
 
 
     

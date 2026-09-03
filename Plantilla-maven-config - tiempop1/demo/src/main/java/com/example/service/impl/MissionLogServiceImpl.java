@@ -23,7 +23,7 @@ public class MissionLogServiceImpl implements IMissionLogService {
         for(MissionLog m: missionLogRepositoty.list()){
 
 
-    if(missionLog.getLogCode() == m.getLogCode()){
+    if((missionLog.getLogCode() == m.getLogCode())&&(missionLog!=m)){
 
 throw new IllegalArgumentException("ya hay otra mission con el LogCode"); 
 

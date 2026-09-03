@@ -13,7 +13,13 @@ public class MissionLogRepositotyImpl implements IMissionLogRepositoty {
 
    @Override
     public void init() {
-        throw new UnsupportedOperationException("Not supported yet.");
+//String Description, String LogCode, String Sector, String StarDate, int StarshipId, int ThreatLevel, String Title, int id
+missions.add(new MissionLog("aponzaa","1231231234","norte","oqwei",0,3,"toponza",countId++));
+missions.add(new MissionLog("aponzaa1","12312123132","norte","oqwei",1,3,"toponza",countId++));
+
+missions.add(new MissionLog("aponza2","1231231233415","sur","oqwei",2,3,"toponza",countId++));
+
+
     }
 
     @Override

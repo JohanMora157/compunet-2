@@ -13,7 +13,11 @@ public class StarshipRepositotyImpl implements IStarshipRepositoty {
 
    @Override
     public void init() {
-        throw new UnsupportedOperationException("Not supported yet.");
+//String Captain, String ClassType, String CommissionDate, String RegistryCode, String Status, int id, String name
+
+starships.add(new Starship("fajardo","dwqqsq","dwad","popopopo","arads",countId++,"ojjoa"));
+starships.add(new Starship("aponza","dwqqsq2","dwad2","popopopo","arads",countId++,"ojjoa"));
+starships.add(new Starship("cubillo","dwqqsq3","dwad3","popopopo","arads",countId++,"ojjoa"));
     }
 
     @Override

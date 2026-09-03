@@ -16,15 +16,18 @@ import com.example.service.impl.StarshipServiceImpl;
 @Configuration
 public class AppConfig {
 
-    @Bean
+    
+      @Bean(initMethod="init")
+    public IStarshipRepositoty starshipRepositoty(){
+        return new StarshipRepositotyImpl();
+    }
+    
+    
+    @Bean(initMethod="init")
     public IMissionLogRepositoty missionLogRepositoty(){
         return new MissionLogRepositotyImpl();
     }
 
-     @Bean
-    public IStarshipRepositoty starshipRepositoty(){
-        return new StarshipRepositotyImpl();
-    }
 
     @Bean
     public IMissionLogService missionLogService(IMissionLogRepositoty missionLogRepositoty,IStarshipRepositoty starshipRepositoty){

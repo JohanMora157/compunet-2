@@ -78,10 +78,29 @@ public class CreateMissionLogsServlet extends HttpServlet {
 //String Description, String LogCode, String Sector, String StarDate, int StarshipId, int ThreatLevel, String Title, int id
     MissionLog missionLog = new MissionLog(Description,LogCode,Sector,StarDate,StarshipId,ThreatLevel,Title,0);
 
+
+
+     try {
+
     missionLogService.save(missionLog);
 
+        resp.sendRedirect(
+            req.getContextPath() + "/missionlogs/create"
+        );
 
-        resp.sendRedirect(req.getContextPath()+"/missionlogs/create");
+    } catch (IllegalArgumentException e) {
+
+         resp.setContentType("text/html;charset=UTF-8");
+
+    resp.getWriter().println(
+        "<script>" +
+        "alert('" + e.getMessage() + "');" +
+        "window.location.href='" +
+        req.getContextPath() +
+        "/missionlogs/create';" +
+        "</script>"
+    );
+    }
     }
 
 
