@@ -1,0 +1,107 @@
+package com.example.model;
+
+public class MissionLog {
+private int id;
+private String LogCode;
+private String Title;
+private String Description;
+private String StarDate;
+private String Sector;
+private int ThreatLevel;
+private int StarshipId;
+
+    public MissionLog(String Description, String LogCode, String Sector, String StarDate, int StarshipId, int ThreatLevel, String Title, int id) {
+        this.Description = Description;
+        this.LogCode = LogCode;
+        this.Sector = Sector;
+        this.StarDate = StarDate;
+        this.StarshipId = StarshipId;
+        this.ThreatLevel = ThreatLevel;
+        this.Title = Title;
+        this.id = id;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getLogCode() {
+        return LogCode;
+    }
+
+    public void setLogCode(String LogCode) {
+        this.LogCode = LogCode;
+    }
+
+    public String getTitle() {
+        return Title;
+    }
+
+    public void setTitle(String Title) {
+        this.Title = Title;
+    }
+
+    public String getDescription() {
+        return Description;
+    }
+
+    public void setDescription(String Description) {
+        this.Description = Description;
+    }
+
+    public String getStarDate() {
+        return StarDate;
+    }
+
+    public void setStarDate(String StarDate) {
+        this.StarDate = StarDate;
+    }
+
+    public String getSector() {
+        return Sector;
+    }
+
+    public void setSector(String Sector) {
+        this.Sector = Sector;
+    }
+
+    public int getThreatLevel() {
+        return ThreatLevel;
+    }
+
+    public void setThreatLevel(int ThreatLevel) {
+        this.ThreatLevel = ThreatLevel;
+    }
+
+    public int getStarshipId() {
+        return StarshipId;
+    }
+
+    public void setStarshipId(int StarshipId) {
+        this.StarshipId = StarshipId;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("MissionLog{");
+        sb.append("id=").append(id);
+        sb.append(", LogCode=").append(LogCode);
+        sb.append(", Title=").append(Title);
+        sb.append(", Description=").append(Description);
+        sb.append(", StarDate=").append(StarDate);
+        sb.append(", Sector=").append(Sector);
+        sb.append(", ThreatLevel=").append(ThreatLevel);
+        sb.append(", StarshipId=").append(StarshipId);
+        sb.append('}');
+        return sb.toString();
+    }
+
+
+
+    
+}
