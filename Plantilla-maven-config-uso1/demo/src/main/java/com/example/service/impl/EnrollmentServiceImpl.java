@@ -32,7 +32,7 @@ return enrollmentRepository.list();    }
 
         }else if (courseRepository.find(enrollment.getCourseId()).isActive()==false){ 
             
-throw new IllegalArgumentException("el curso esta inactivo");
+            throw new IllegalArgumentException("el curso esta inactivo");
 
 
         }else{
