@@ -1,0 +1,16 @@
+com\example\repository\impl\VehicleRepositoryImpl.class
+com\example\servlets\ListVehiclesServlet.class
+com\example\servlets\ListMechanicVisitsServlet.class
+com\example\service\IMechanicVisitService.class
+com\example\repository\impl\MechanicVisitRepositoryImpl.class
+com\example\servlets\HomeServlet.class
+com\example\service\impl\VehicleServiceImpl.class
+com\example\servlets\CreateMechanicVisitsServlet.class
+com\example\config\AppConfig.class
+com\example\repository\IVehicleRepository.class
+com\example\servlets\CreateVehiclesServlet.class
+com\example\model\Vehicle.class
+com\example\model\MechanicVisit.class
+com\example\service\impl\MechanicVisitServiceImpl.class
+com\example\repository\IMechanicVisitRepository.class
+com\example\service\IVehicleService.class
