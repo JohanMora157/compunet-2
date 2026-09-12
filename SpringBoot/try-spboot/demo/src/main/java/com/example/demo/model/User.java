@@ -1,12 +1,16 @@
 package com.example.demo.model;
 
 import java.sql.Timestamp;
+import java.util.List;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -25,8 +29,15 @@ public class User {
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private int id;
 
-    private Role roleId; //FK
+    @ManyToOne
+    @JoinColumn(name = "role_id")   //el join colum siempre va con "name", cuando es uno va con ManyToOne
+    private Role role; //FK
 
+    @OneToMany(mappedBy = "user")
+    private List<Routine> routines;
+
+    @OneToMany(mappedBy = "user")
+    private List<ActivityLog> activityLogs; // la lista siempre va con OneToMany
 
     private String name;
 

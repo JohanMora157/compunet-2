@@ -1,11 +1,15 @@
 package com.example.demo.model;
 
 import java.sql.Timestamp;
+import java.util.List;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -20,17 +24,27 @@ import lombok.NoArgsConstructor;
 @Table(name="routines")
 public class Routine {
 
-
     @Id 
     @GeneratedValue (strategy=GenerationType.IDENTITY)
     private int id;
 
-    private int userId;//FK
-    
-    private String name;
+
+      private String name;
     private String description;
-    private Timestamp createdAt;
+
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user; //FK
+ private Timestamp createdAt;
     private Timestamp updatedAt;
     
+    @OneToMany(mappedBy = "routine")
+    private List<ActivityLog> activityLogs;
+
+    @OneToMany(mappedBy = "routine")
+    private List<RoutineExercise> routineExercises;
+    
+  
+   
     
 }

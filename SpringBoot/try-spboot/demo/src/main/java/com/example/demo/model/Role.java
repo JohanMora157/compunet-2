@@ -1,9 +1,12 @@
 package com.example.demo.model;
 
+import java.util.List;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -22,8 +25,17 @@ public class Role {
 @Id // dice que este atributo es PK
 @GeneratedValue(strategy = GenerationType.IDENTITY) //genera ese id automaticamente en secuencia
 private int id;
+
+@OneToMany(mappedBy="role")
+private List<User> users;
+
+@OneToMany(mappedBy="role")
+private List<RolePermission> rolePermissions;
+    
     
     
 private String name;
+
+
     
 }
