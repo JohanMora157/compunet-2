@@ -2,6 +2,8 @@ package com.example.demo.model;
 
 import java.sql.Timestamp;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -28,10 +30,12 @@ public class ActivityExercise {
 
     @ManyToOne
     @JoinColumn(name = "activity_log_id")
+    @JsonIgnoreProperties("activityExercise")
     private ActivityLog activityLog; //FK
 
     @ManyToOne
     @JoinColumn(name = "routine_exercise_id")
+    @JsonIgnoreProperties("activityExercise")
     private RoutineExercise routineExercise; //FK  
 
     private Integer actualSets;

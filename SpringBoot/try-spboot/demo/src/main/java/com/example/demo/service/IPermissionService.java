@@ -14,7 +14,5 @@ public interface IPermissionService {
 
     void deleteById(Integer id);
 
-    Optional<Permission> findByName(String name);
-
-    List<Permission> findPermissionsByName(String name);
+List<Permission> findByRolePermissions_Role_Name(String roleName);
 }

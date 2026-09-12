@@ -1,5 +1,7 @@
 package com.example.demo.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -26,9 +28,11 @@ public class RolePermission {
  
     @ManyToOne
     @JoinColumn(name = "role_id")
+    @JsonIgnoreProperties({"rolePermissions", "users"})
     private Role role; //FK   
 
     @ManyToOne
     @JoinColumn(name = "permission_id")
+    @JsonIgnoreProperties("rolePermissions")
     private Permission permission; //FK
 }

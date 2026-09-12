@@ -37,13 +37,11 @@ public class PermissionServiceImpl implements IPermissionService {
         permissionRepository.deleteById(id);
     }
 
-    @Override
-    public Optional<Permission> findByName(String name) {
-        return permissionRepository.findByName(name);
+
+      @Override
+    public List<Permission> findByRolePermissions_Role_Name(String roleName) {
+        return permissionRepository.findByRolePermissions_Role_Name(roleName);
     }
 
-    @Override
-    public List<Permission> findPermissionsByName(String name) {
-        return permissionRepository.findPermissionsByName(name);
-    }
+    
 }

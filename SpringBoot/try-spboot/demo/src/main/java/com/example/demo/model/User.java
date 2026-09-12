@@ -3,6 +3,8 @@ package com.example.demo.model;
 import java.sql.Timestamp;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -15,7 +17,9 @@ import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 @Data
 @Builder
@@ -31,12 +35,19 @@ public class User {
 
     @ManyToOne
     @JoinColumn(name = "role_id")   //el join colum siempre va con "name", cuando es uno va con ManyToOne
+    @JsonIgnoreProperties("users")
     private Role role; //FK
 
     @OneToMany(mappedBy = "user")
+    @JsonIgnoreProperties("user")
+    @ToString.Exclude
+    @EqualsAndHashCode.Exclude
     private List<Routine> routines;
 
     @OneToMany(mappedBy = "user")
+    @JsonIgnoreProperties("user")
+    @ToString.Exclude
+    @EqualsAndHashCode.Exclude
     private List<ActivityLog> activityLogs; // la lista siempre va con OneToMany
 
     private String name;
