@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD user</title>
+</head>
+
+<body>
+
+    <h2>AGREGAR USERS</h2>
+
+    <form th:action="@{/mvc/users/add}" method="post" th:object="${user}">
+
+
+        <label>Name:</label>
+        <input type="text" th:field="*{name}">
+
+        <label>Email:</label>
+        <input type="email" th:field="*{email}">
+
+        <label>Password:</label>
+        <input type="password" th:field="*{password}">
+
+        <label for="roleId">Role:</label>
+        <select id="roleId" name="roleId" required>
+            <option value="">Select a role</option>
+            <option th:each="role : ${roles}" th:value="${role.id}" th:text="${role.name}"></option>
+        </select>
+
+        <button type="submit">Save</button>
+
+
+
+
+    </form>
+
+
+
+
+
+</body>
+
+</html>
