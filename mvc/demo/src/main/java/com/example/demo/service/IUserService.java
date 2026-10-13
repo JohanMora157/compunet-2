@@ -15,4 +15,5 @@ public interface IUserService {
     User update(Integer id, User user, Integer roleId);
     void deleteById(Integer id);
     List<User> saveAllUsers(List<User> users) throws TransactionTestException;
+    Optional<User> findByEmail(String email);
 }

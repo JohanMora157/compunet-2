@@ -3,6 +3,7 @@ package com.example.demo.repository;
 import com.example.demo.model.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -27,7 +28,14 @@ public interface IUserRepository extends JpaRepository<User, Integer> {
     List<User> findByNameIsNot(String name);
     List<User> findByNameLike(String name);
 
+
+
+    
     // Búsqueda por email
+    @EntityGraph(attributePaths = {
+    "role",
+    "role.rolePermissions",
+    "role.rolePermissions.permission"})
     Optional<User> findByEmail(String email);
 
     // Búsquedas por fechas de creación

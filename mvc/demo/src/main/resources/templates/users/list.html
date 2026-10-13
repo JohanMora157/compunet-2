@@ -1,49 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Users</title>
+
+    <link rel="stylesheet" th:href="@{/css/components/sidebar.css}">
+
+    <link rel="stylesheet" th:href="@{/css/users/list.css}">
 </head>
 
-<body>
+<body style="display: flex; margin: 0;">
 
-    <h1>Users</h1>
+    <div th:replace="~{components/sidebar :: sidebar}"></div>
 
+    <div style="padding: 20px; flex: 1;">
 
-    <table border="2">
-        <thead>
-            <tr>
-                <th>NAME</th>
-                <th>PW</th>
-                <th>ID</th>
-                <th>EMAIL</th>
-            </tr>
-        </thead>
+        <h1>Users</h1>
 
-        <tbody>
-            <tr th:each="user:${users}">
-                <td th:text="${user.name}"></td>
-                <td th:text="${user.password}"></td>
-                <td th:text="${user.id}"></td>
-                <td th:text="${user.email}"></td>
-            </tr>
+        <p>
+            Usuario autenticado:
+            <strong th:text="${username}"></strong>
+            <span th:if="${#authentication != null}">
+                - Roles/Permisos: [<span th:each="a, iterStat : ${#authentication.authorities}" th:text="${a.authority + (iterStat.last ? '' : ', ')}"></span>]
+            </span>
+        </p>
 
+        <div>
+            <a th:if="${canWrite}" th:href="@{/mvc/users/add}">
+                Add User
+            </a>
+        </div>
 
-        </tbody>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
 
+            <tbody>
+                <tr th:each="user : ${users}">
 
+                    <td th:text="${user.id}"></td>
 
-    </table>
+                    <td th:text="${user.name}"></td>
 
-    <ul th:each="user:${users}">
+                    <td th:text="${user.email}"></td>
 
-        <li th:text="${user.name}"></li>
-        <li th:text="${user.id}"></li>
-        <li th:text="${user.email}"></li>
-        <li th:text="${user.password}"></li>
+                    <td th:text="${user.role != null ? user.role.name : 'Sin rol'}"></td>
 
-    </ul>
+                    <td>
+                        <div th:if="${canWrite}">
+
+                            <a th:href="@{/mvc/users/edit/{id}(id=${user.id})}">
+                                Edit
+                            </a>
+
+                            <form th:action="@{/mvc/users/delete/{id}(id=${user.id})}" method="post">
+
+                                <input type="hidden" name="_method" value="delete">
+
+                                <button type="submit">
+                                    Delete
+                                </button>
+                            </form>
+
+                        </div>
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
 
 </body>
 
